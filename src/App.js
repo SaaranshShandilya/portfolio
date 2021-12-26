@@ -77,7 +77,7 @@ function App() {
           <div>{<Frameworks />}</div>
         </div>
         <div>
-          <h1 className="text-2xl text-center mx-auto my-10 text-white font-bold p-3 border border-blue-600 rounded-full bg-blue-600 w-3/4">Databses and others</h1>
+          <h1 className="text-2xl text-center mx-auto my-10 text-white font-bold p-3 border border-blue-600 rounded-full bg-blue-600 w-3/4">Databases and others</h1>
           <div>{<Db />}</div>
         </div>
       </div>
