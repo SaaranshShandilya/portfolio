@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.spacer{
+  aspect-ratio:960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+.layer{
+  background-image: url('./wave.svg')
+}
+
+.darklayer{
+  background-image : url('./dark-wave.svg')
+}
+
+
+::-webkit-scrollbar{
+  width:10px;
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-track{
+  background : transparent;
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color:#282c34;
+  border-radius: 25px;
+}
